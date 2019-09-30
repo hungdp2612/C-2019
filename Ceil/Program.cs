@@ -10,9 +10,9 @@ namespace Ceil
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Ceil(3%10%10));
+            Console.WriteLine(Ceil(4.6));
         }
-        static int Ceil(float x)
+        static int Ceil(double x)
         {
             int n = (int)x;
             if((n-x)<=0.5)

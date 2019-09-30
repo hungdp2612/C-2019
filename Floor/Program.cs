@@ -10,16 +10,12 @@ namespace Floor
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine(Floor(4));
         }
         //output: 7.6 = 7; 7.4 = 7
         static int Floor(float x)
         {
-            if(x == (int) x)
-            {
-                return ;
-            }
-            return false;
+            return (int)x;
         }
     }
 }
